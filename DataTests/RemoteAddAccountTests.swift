@@ -23,7 +23,7 @@ protocol HttpPostClient {
 
 final class RemoteAddAccountTests: XCTestCase {
 
-    func test_() {
+    func test_add_should_call_httpClient_with_correct_url() {
         
         guard let url = URL(string: "any_url.com") else { return }
         
